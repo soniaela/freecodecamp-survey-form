@@ -1,5 +1,5 @@
 # freecodecamp-survey-form
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the Responsive Design Course - Project 1 for FreeCodeCamp. The solution should be somewhat similar to: https://survey-form.freecodecamp.rocks/
 
 ## Table of contents
 
@@ -40,7 +40,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://codepen.io/soniaela/pen/JjZmBad?editors=1100
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
