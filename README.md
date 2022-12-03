@@ -29,10 +29,10 @@ This is a solution to the Responsive Design Course - Project 1 for FreeCodeCamp.
 
 ### What I learned
 
-Forms - ultimately, this project was about creating the structure of a form with HTML. 
-How to disable the first option of a dropdown menu.
-How to create a shape around the form.
-How to place a background picture and alter its appearance.
+- How to create a form
+- How to disable the first option of a dropdown menu.
+- How to create a shape around the form.
+- How to place a background picture and alter its appearance.
 
 
 ### Continued development
