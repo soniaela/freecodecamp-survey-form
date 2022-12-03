@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+  <meta charset="UTF-8"></meta>
+  <link rel="stylesheet" href="styles.css">
+  <title>Baseball Survey</title>
+  </head>
+
+
+  <body>
+
+    <header>    
+<h1 id="title">BASEBALL SURVEY</h1>
+    <p id="description"><span class='ball-emoji'>⚾</span> Share your ballgame's thoughts below! <span class='ball-emoji'>⚾</span></p>
+  </header>
+
+  <main>
+    
+    <form id="survey-form">
+     
+     <div class="input-details"> 
+      <label id="name-label">Name 
+        <input id="name" type="text"  placeholder="Enter your name"  required></label>
+        <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required></label>
+        <label id="number-label">Age<input id="number" type="number" placeholder="Age" min=18 max=120></label>
+        </div>
+
+
+        <div class="question1">
+        <label>Which option best describes your current involvement with baseball?</label>
+        
+        
+        <select id="dropdown">
+          <option value="" disabled selected value>Select an option</option>
+          <option value="">Player</option>
+          <option value="">Coach</option>
+          <option value="">Watcher</option>
+          <option value="">Analyst</option>
+          <option value="">Scout</option>
+          <option value="">Other</option>
+        </select>
+        </div>
+
+      <br>
+<div class="question2">
+        <label>Would you recommend baseball to a friend?</label>
+        </div>
+        
+        <fieldset>
+          <label><input type="radio" name="name" value="name"/> Definitely</label>
+          </fieldset>
+        <fieldset>
+          <label><input type="radio" name="name" value="name"/> Maybe</label>
+        </fieldset>
+        <fieldset>
+          <label><input type="radio" name="name" value="name"/> No</label>
+        </fieldset>
+
+        <div class="question3">
+        <label id="dropdown">What is your favorite feature of baseball?</label>
+        </div>
+        
+        <select id="dropdown">
+          <option value="" disabled selected value>Select an option</option>
+          <option value="">Pitching</option>
+          <option value="">Batting</option>
+          <option value="">Fielding</option>
+        </select>
+
+      <br>
+        <div class="question4">
+        <label>What would you like to see improved? <span>(Check all that apply)</span></label>
+        </div>
+        
+        <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Less innings</label>
+          </fieldset>
+        
+        <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Less pitching changes</label>
+          </fieldset>
+        
+        <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Limit the number of faults per at-bat</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Include relegation</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Eliminate the DH (Designated Hitter)</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Reduce number of regular season games</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> More StatCast analysis</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Implementation of the pitch clock</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Elimination of double-headers</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> Cheaper concession at stadiums</label>
+          </fieldset>
+          <fieldset>
+          <label><input type="checkbox" name="name" value="name"/> More videogame franchises available</label>
+          </fieldset>
+
+      <br>
+<label>Any comments or suggestions?</label>
+          <textarea placeholder="Enter your comment here..."></textarea>
+        <br>
+<input type="submit" value="Submit" id="submit">
+        </div>
+
+    </form>
+
+    </main>
+  </body>
+</html>
