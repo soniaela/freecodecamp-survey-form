@@ -8,7 +8,7 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  font-size: 1em;
+  font-size: 1em; /* SWITCH TO REM*/
   font-weight: 400;
   background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),  url(https://soniaela.github.io/freecodecamp-survey-form/background-baseball.jpg);
   /* Center and scale the image nicely */
@@ -53,7 +53,7 @@ p {
   
   padding-top: 20px;
   padding-bottom: 30px;
-  font-size: 1.4em;
+  font-size: 1.4em; /* SWITCH TO REM*/
 }
 
 
@@ -113,10 +113,10 @@ label {
 /* submit button style */
 #submit{
   width: 100%;
-  height: 50px;
+  height: 50px; /* AVOID HEIGHTS, TRY PADDING INSTEAD*/
   background-color: var(--color-green);
   color: var(--color-white);
-  font-size: 18px;
+  font-size: 18px; /* SWITCH TO REM*/
   border-radius: 5px;
   cursor: pointer;
   
